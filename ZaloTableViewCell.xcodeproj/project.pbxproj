@@ -1,0 +1,353 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CEA748A624765448000F274D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA748A524765448000F274D /* AppDelegate.swift */; };
+		CEA748A824765448000F274D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA748A724765448000F274D /* SceneDelegate.swift */; };
+		CEA748AA24765448000F274D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA748A924765448000F274D /* ViewController.swift */; };
+		CEA748AD24765448000F274D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEA748AB24765448000F274D /* Main.storyboard */; };
+		CEA748AF24765449000F274D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEA748AE24765449000F274D /* Assets.xcassets */; };
+		CEA748B224765449000F274D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEA748B024765449000F274D /* LaunchScreen.storyboard */; };
+		CEA748BB247654C6000F274D /* ZaloCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA748B9247654C6000F274D /* ZaloCell.swift */; };
+		CEA748BC247654C6000F274D /* ZaloCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEA748BA247654C6000F274D /* ZaloCell.xib */; };
+		CEA748BE247660F6000F274D /* ZaloNew.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA748BD247660F6000F274D /* ZaloNew.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CEA748A224765448000F274D /* ZaloTableViewCell.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZaloTableViewCell.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEA748A524765448000F274D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CEA748A724765448000F274D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CEA748A924765448000F274D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CEA748AC24765448000F274D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CEA748AE24765449000F274D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CEA748B124765449000F274D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CEA748B324765449000F274D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEA748B9247654C6000F274D /* ZaloCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZaloCell.swift; sourceTree = "<group>"; };
+		CEA748BA247654C6000F274D /* ZaloCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ZaloCell.xib; sourceTree = "<group>"; };
+		CEA748BD247660F6000F274D /* ZaloNew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZaloNew.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CEA7489F24765448000F274D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CEA7489924765448000F274D = {
+			isa = PBXGroup;
+			children = (
+				CEA748A424765448000F274D /* ZaloTableViewCell */,
+				CEA748A324765448000F274D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CEA748A324765448000F274D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEA748A224765448000F274D /* ZaloTableViewCell.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEA748A424765448000F274D /* ZaloTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				CEA748A524765448000F274D /* AppDelegate.swift */,
+				CEA748A724765448000F274D /* SceneDelegate.swift */,
+				CEA748A924765448000F274D /* ViewController.swift */,
+				CEA748AB24765448000F274D /* Main.storyboard */,
+				CEA748AE24765449000F274D /* Assets.xcassets */,
+				CEA748B024765449000F274D /* LaunchScreen.storyboard */,
+				CEA748B324765449000F274D /* Info.plist */,
+				CEA748B9247654C6000F274D /* ZaloCell.swift */,
+				CEA748BA247654C6000F274D /* ZaloCell.xib */,
+				CEA748BD247660F6000F274D /* ZaloNew.swift */,
+			);
+			path = ZaloTableViewCell;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CEA748A124765448000F274D /* ZaloTableViewCell */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEA748B624765449000F274D /* Build configuration list for PBXNativeTarget "ZaloTableViewCell" */;
+			buildPhases = (
+				CEA7489E24765448000F274D /* Sources */,
+				CEA7489F24765448000F274D /* Frameworks */,
+				CEA748A024765448000F274D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZaloTableViewCell;
+			productName = ZaloTableViewCell;
+			productReference = CEA748A224765448000F274D /* ZaloTableViewCell.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CEA7489A24765448000F274D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = hung;
+				TargetAttributes = {
+					CEA748A124765448000F274D = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = CEA7489D24765448000F274D /* Build configuration list for PBXProject "ZaloTableViewCell" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CEA7489924765448000F274D;
+			productRefGroup = CEA748A324765448000F274D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CEA748A124765448000F274D /* ZaloTableViewCell */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CEA748A024765448000F274D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEA748B224765449000F274D /* LaunchScreen.storyboard in Resources */,
+				CEA748AF24765449000F274D /* Assets.xcassets in Resources */,
+				CEA748AD24765448000F274D /* Main.storyboard in Resources */,
+				CEA748BC247654C6000F274D /* ZaloCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CEA7489E24765448000F274D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEA748AA24765448000F274D /* ViewController.swift in Sources */,
+				CEA748A624765448000F274D /* AppDelegate.swift in Sources */,
+				CEA748A824765448000F274D /* SceneDelegate.swift in Sources */,
+				CEA748BE247660F6000F274D /* ZaloNew.swift in Sources */,
+				CEA748BB247654C6000F274D /* ZaloCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CEA748AB24765448000F274D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEA748AC24765448000F274D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CEA748B024765449000F274D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEA748B124765449000F274D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CEA748B424765449000F274D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CEA748B524765449000F274D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CEA748B724765449000F274D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ZaloTableViewCell/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hungnguyen.ZaloTableViewCell;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CEA748B824765449000F274D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ZaloTableViewCell/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hungnguyen.ZaloTableViewCell;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CEA7489D24765448000F274D /* Build configuration list for PBXProject "ZaloTableViewCell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEA748B424765449000F274D /* Debug */,
+				CEA748B524765449000F274D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEA748B624765449000F274D /* Build configuration list for PBXNativeTarget "ZaloTableViewCell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEA748B724765449000F274D /* Debug */,
+				CEA748B824765449000F274D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CEA7489A24765448000F274D /* Project object */;
+}
